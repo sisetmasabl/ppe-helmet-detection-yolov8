@@ -1,0 +1,4 @@
+bucket,recall,tp,total,mean_conf
+small,0.9267,19094,20605,0.6853
+medium,0.9726,3230,3321,0.8259
+large,0.9784,499,510,0.9018

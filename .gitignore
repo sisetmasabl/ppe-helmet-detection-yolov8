@@ -1,0 +1,62 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Entorno virtual ----
+.venv/
+venv/
+env/
+
+# ---- Datasets (grandes; se reproducen con download_shwd.py / prepare_shwd.py) ----
+data/
+
+# ---- Runs de entrenamiento (grandes; el modelo final se copia a weights/) ----
+runs/
+
+# ---- Herramientas descargadas (binario tectonic; instalar aparte) ----
+tools/
+
+# ---- Checkpoints grandes de runs (el modelo final vive en weights/) ----
+*.pt
+!weights/*.pt
+
+# ---- Salidas voluminosas / regenerables ----
+outputs/demo/frames/
+outputs/*.log
+
+# ---- Intermedios de compilación LaTeX ----
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+report/neurips/*.log
+
+# ---- Logs ----
+*.log
+
+# ---- Config local de herramientas ----
+.claude/
+
+# ---- Documento de instrucciones de la tarea (material del curso, no entregable) ----
+*.docx
+
+# ---- Archivos comprimidos ----
+*.zip
+
+# ---- SO / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---- Secretos (NUNCA commitear) ----
+.env
+*.env
+roboflow_key.txt
+*ACCESS*.md
+**/secrets*
+*token*
+*.key

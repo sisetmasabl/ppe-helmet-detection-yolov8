@@ -1,0 +1,12 @@
+# IMPORTANTE: instala PRIMERO PyTorch con la build de CUDA adecuada.
+# Para GPUs Blackwell (RTX 50xx) usa CUDA 12.8:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# (ver README para otras GPUs / CPU). Luego:  pip install -r requirements.txt
+
+ultralytics>=8.3.0
+roboflow>=1.1.0
+opencv-python>=4.8.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+numpy>=1.24
+fpdf2>=2.7.0   # generación de report/REPORT.pdf (report/build_pdf.py)

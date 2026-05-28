@@ -1,0 +1,9 @@
+{
+  "frames_processed": 80,
+  "frames_with_violations": 23,
+  "mean_compliance_rate": 0.884,
+  "person_classes": [],
+  "helmet_classes": [
+    "helmet"
+  ]
+}

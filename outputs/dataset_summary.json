@@ -1,0 +1,46 @@
+{
+  "classes": [
+    "helmet",
+    "head"
+  ],
+  "images_per_split": {
+    "train": 5457,
+    "val": 607,
+    "test": 1517
+  },
+  "instances_per_class_per_split": {
+    "train": {
+      "helmet": 6419,
+      "head": 79778
+    },
+    "val": {
+      "helmet": 747,
+      "head": 9178
+    },
+    "test": {
+      "helmet": 1878,
+      "head": 22558
+    }
+  },
+  "size_distribution_overall": {
+    "medium": 16362,
+    "large": 2354,
+    "small": 101842
+  },
+  "size_distribution_by_class": {
+    "helmet": {
+      "medium": 3799,
+      "small": 3416,
+      "large": 1829
+    },
+    "head": {
+      "medium": 12563,
+      "large": 525,
+      "small": 98426
+    }
+  },
+  "size_thresholds": {
+    "small_max_rel": 0.08,
+    "large_min_rel": 0.25
+  }
+}

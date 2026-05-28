@@ -1,0 +1,64 @@
+{
+  "operating_point_conf": 0.25,
+  "iou_match": 0.5,
+  "distance": {
+    "small": {
+      "recall": 0.926668284396991,
+      "tp": 19094,
+      "total": 20605,
+      "mean_conf": 0.6852856409466053
+    },
+    "medium": {
+      "recall": 0.9725986148750376,
+      "tp": 3230,
+      "total": 3321,
+      "mean_conf": 0.8259224176868196
+    },
+    "large": {
+      "recall": 0.9784313725490196,
+      "tp": 499,
+      "total": 510,
+      "mean_conf": 0.9017911318667188
+    }
+  },
+  "occlusion": {
+    "low": {
+      "recall": 0.9474238171611868,
+      "tp": 18903,
+      "total": 19952,
+      "mean_conf": 0.7195536125379789
+    },
+    "medium": {
+      "recall": 0.8786848072562359,
+      "tp": 3875,
+      "total": 4410,
+      "mean_conf": 0.6636874553772711
+    },
+    "high": {
+      "recall": 0.6081081081081081,
+      "tp": 45,
+      "total": 74,
+      "mean_conf": 0.6456974393791622
+    }
+  },
+  "distance_thresholds": {
+    "small_max_rel": 0.08,
+    "large_min_rel": 0.25
+  },
+  "occlusion_thresholds": {
+    "low_max_iou": 0.1,
+    "high_min_iou": 0.35
+  },
+  "distance_by_class": {
+    "helmet": {
+      "small": 0.8130081300813008,
+      "medium": 0.9746328437917223,
+      "large": 0.9923273657289002
+    },
+    "head": {
+      "small": 0.930890421301656,
+      "medium": 0.9720062208398134,
+      "large": 0.9327731092436975
+    }
+  }
+}
