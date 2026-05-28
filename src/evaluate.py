@@ -268,10 +268,11 @@ def _bar(final, order, labels, title, path, colors):
     vals = [final[b]["recall"] for b in order]
     fig, ax = plt.subplots(figsize=(6, 4))
     bars = ax.bar(labels, vals, color=colors)
-    ax.set_ylim(0, 1.0); ax.set_ylabel("Recall @ IoU0.5 (conf=0.25)")
-    ax.set_title(title)
+    # Margen superior extra para que las etiquetas de valor no se solapen con el título.
+    ax.set_ylim(0, 1.22); ax.set_ylabel("Recall @ IoU0.5 (conf=0.25)")
+    ax.set_title(title, pad=12)
     for bar, b in zip(bars, order):
-        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.02,
+        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.015,
                 f"{final[b]['recall']:.2f}\n(n={final[b]['total']})", ha="center", va="bottom", fontsize=9)
     fig.tight_layout(); fig.savefig(path, dpi=130); plt.close(fig)
 

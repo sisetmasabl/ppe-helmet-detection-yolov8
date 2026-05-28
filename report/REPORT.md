@@ -149,4 +149,15 @@ Entrenamos y evaluamos críticamente un detector YOLOv8 para el cumplimiento del
 
 ## Referencias
 
-Ver `report/related_work.md` para las entradas completas (y `report/neurips/references.bib` en formato BibTeX). Claves: [redmon2016yolo], [bochkovskiy2020yolov4], [wang2024yolov9], [jocher2023yolov8], [fang2018nonhardhat], [hayat2022helmet], [wang2018repulsion], [lin2017fpn], [kang2025sodsurvey], [njvisionpower2019shwd].
+*(En formato BibTeX en `report/neurips/references.bib`. Las claves entre corchetes coinciden con las citas del texto.)*
+
+1. **[redmon2016yolo]** Redmon, J., Divvala, S., Girshick, R., Farhadi, A. (2016). *You Only Look Once: Unified, Real-Time Object Detection.* CVPR 2016, pp. 779–788. https://arxiv.org/abs/1506.02640
+2. **[bochkovskiy2020yolov4]** Bochkovskiy, A., Wang, C.-Y., Liao, H.-Y. M. (2020). *YOLOv4: Optimal Speed and Accuracy of Object Detection.* arXiv:2004.10934. https://arxiv.org/abs/2004.10934
+3. **[wang2024yolov9]** Wang, C.-Y., Yeh, I-H., Liao, H.-Y. M. (2024). *YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information.* ECCV 2024. https://arxiv.org/abs/2402.13616
+4. **[jocher2023yolov8]** Jocher, G., Chaurasia, A., Qiu, J. (2023). *Ultralytics YOLOv8* (software, v8.x). https://github.com/ultralytics/ultralytics
+5. **[fang2018nonhardhat]** Fang, Q., Li, H., Luo, X., Ding, L., Luo, H., Rose, T. M., An, W. (2018). *Detecting non-hardhat-use by a deep learning method from far-field surveillance videos.* Automation in Construction, 85, 1–9. https://doi.org/10.1016/j.autcon.2017.09.018
+6. **[hayat2022helmet]** Hayat, A., Morgado-Dias, F. (2022). *Deep Learning-Based Automatic Safety Helmet Detection System for Construction Safety.* Applied Sciences, 12(16), 8268. https://doi.org/10.3390/app12168268
+7. **[wang2018repulsion]** Wang, X., Xiao, T., Jiang, Y., Shao, S., Sun, J., Shen, C. (2018). *Repulsion Loss: Detecting Pedestrians in a Crowd.* CVPR 2018, pp. 7774–7783. https://arxiv.org/abs/1711.07752
+8. **[lin2017fpn]** Lin, T.-Y., Dollár, P., Girshick, R., He, K., Hariharan, B., Belongie, S. (2017). *Feature Pyramid Networks for Object Detection.* CVPR 2017, pp. 2117–2125. https://arxiv.org/abs/1612.03144
+9. **[kang2025sodsurvey]** Kang, M., et al. (2025). *Small Object Detection: A Comprehensive Survey on Challenges, Techniques and Real-World Applications.* arXiv:2503.20516. https://arxiv.org/abs/2503.20516
+10. **[njvisionpower2019shwd]** njvisionpower (2019). *Safety-Helmet-Wearing-Dataset (SHWD).* GitHub. https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset
