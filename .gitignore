@@ -36,7 +36,7 @@ outputs/*.log
 report/neurips/*.log
 
 # ---- Notas de estudio internas (NO se publican) ----
-GUIA_ESTUDIO*.md
+GUIA_ESTUDIO*
 _interno/
 
 # ---- Logs ----
