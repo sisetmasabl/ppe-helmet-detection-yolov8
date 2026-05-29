@@ -35,6 +35,10 @@ outputs/*.log
 *.synctex.gz
 report/neurips/*.log
 
+# ---- Notas de estudio internas (NO se publican) ----
+GUIA_ESTUDIO*.md
+_interno/
+
 # ---- Logs ----
 *.log
 
